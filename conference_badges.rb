@@ -20,7 +20,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-
   i = 0
   until i == attendees.length
     puts batch_badge_creator(attendees)[i]
