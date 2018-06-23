@@ -22,8 +22,8 @@ end
 def printer(attendees)
 
   for i in 0..attendees.length
-    puts batch_badge_creator(attendees)[index]
-    puts assign_rooms(attendees)[index]
+    puts batch_badge_creator(attendees)[i]
+    puts assign_rooms(attendees)[i]
     i += 1
   end
 end
