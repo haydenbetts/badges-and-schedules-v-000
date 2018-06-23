@@ -16,5 +16,5 @@ def assign_rooms(speaker_list)
     collected_room_assignments << "Hello, #{speaker}! You'll be assigned to room #{index}!"
   end
 
-  co
+  collected_room_assignments
 end
