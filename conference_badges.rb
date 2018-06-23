@@ -10,10 +10,10 @@ end
 
 def assign_rooms(speaker_list)
 
-  collected_room_assignments = Array.new
+  room_assignments = Array.new
 
   speaker_list.each_with_index do |speaker, index|
-    collected_room_assignments << "Hello, #{speaker}! You'll be assigned to room #{index}!"
+    room_assignments << "Hello, #{speaker}! You'll be assigned to room #{index}!"
   end
 
   collected_room_assignments
