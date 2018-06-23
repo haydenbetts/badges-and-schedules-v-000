@@ -22,7 +22,7 @@ end
 def printer(attendees)
 
   attendees.each_with_index do |attendee, index|
-    batch_badge_creator(attendees)
-    puts assign_rooms(attendees)
+    puts batch_badge_creator(attendees)[index]
+    puts assign_rooms(attendees)[index]
   end
 end
